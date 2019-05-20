@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 套件 -->
+<suite name="Suite">
+  <!-- 测试集 -->
+  <test name="ConceptSearch">
+  	<!-- 测试类集合 -->
+    <classes>
+      <!-- 对应的每个测试类 -->
+      <class name="com.wd.api.test.ConceptSearch">
+      </class>
+    </classes>
+  </test> 
+  <test name="ListEdition">
+  	<!-- 测试类集合 -->
+    <classes>
+      <!-- 对应的每个测试类 -->
+      <class name="com.wd.api.test.ListEdition">
+      </class>
+    </classes>
+  </test> 
+</suite> 
